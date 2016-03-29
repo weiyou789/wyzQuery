@@ -1,0 +1,37 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td{ margin:0; padding:0; }
+body,button,input,select,textarea{ font:12px/1.5 arial,tahoma,\5b8b\4f53; }
+body{ background:#F1F1F1; color:#333; _background-attachment:fixed; _background-image:url(about:blank); }
+h1,h2,h3,h4,h5,h6{ font-size:100%; }
+em,i{ font-style:normal; }
+fieldset,img{ border:0; }
+ul,ol,li{ list-style:none; }
+button,input,select,textarea{ font-size:100%; outline:none}
+textarea{ resize:none; }
+table{ border-collapse:collapse; border-spacing:0; }
+a{ color:#666; text-decoration:none; outline:none; }
+a:hover{ color:#F60; text-decoration:underline; }
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix{ zoom:1; }
+.clear{ clear:both; display:block; height:0; overflow:hidden; font-size:0; }
+.hide{ display:none; }
+img.err-product{ background:url(http://script.suning.cn/images/ShoppingArea/Common/blankbg.gif) no-repeat 50% 50%; }
+.wrapper{ width:1190px; min-width:1190px; margin:0 auto; }
+.fl{float: left;}
+.fr{float: right;}
+.mr30{margin-right: 30px;}
+/* font */
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#uxiconfont') format('svg'); /* iOS 4.1- */}
+.iconfont{font-family:"iconfont";font-size:12px;font-style:normal;cursor: pointer;}
+.iconfont:hover{color: #FF7700;}
+
+
+
+.test{position:relative;width:300px;color:#F70;height:300px;background:#000;margin:20px;padding:30px;border:3px solid #F70;}
+.test2{width:200px;height:200px;background:#D00;border:1px solid #000;}
+.test3{position:absolute;top:10px;width:100px;height:100px;background:#F70;}
+
